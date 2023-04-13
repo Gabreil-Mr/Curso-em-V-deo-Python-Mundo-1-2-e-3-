@@ -1,0 +1,15 @@
+ ============================ Anotações ============================
+
+  ---> str() >> Conjunto de caracteres >>>  'narigudo', 'Pedro', 'feioso'
+
+  ---> int() >> Para números inteiros >>> 17, 21, 35, 42
+
+  ---> float() >> Números de ponto flutuante >>>  2.3, 1.6, 14.9, -67.1
+
+  ---> bool() >> Armazena True ou False >>>  True, False
+
+  ---> type() >> Indica o tipo primitivo da var
+   >>>  x = 'Sapo Tunado' print(type(x)) logo seu tipo primitivo é string
+
+  ---> .isnumeric() .isalpha() .islower() >>> Indica se a var é do tipo pedido
+   >>> x = 'Carne de Jégue' print('É numero?',.isnumeric())

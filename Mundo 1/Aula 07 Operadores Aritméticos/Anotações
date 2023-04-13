@@ -1,0 +1,31 @@
+ ============================ Anotações ============================
+
+   ---> Operações:
+
+   + -> Adição              ** -> Potencia
+   - -> Subtração           // -> Divisão inteira
+   * -> Multiplicação        % -> Resto da divisão
+   / > Divisão -
+
+    == -> Igual              != -> Diferente
+    >  -> Maior              <  -> Menor
+    >= -> Maior ou Igual     <= -> Menor ou igual
+
+   ---> Ordem de Precedência:
+
+   1° -> ()
+   2° -> **
+   3° -> *  /  //  %
+   4° -> +  -
+
+      * Formatação de números
+
+       x = 0
+
+       : >> indica que o num vai ser formatado ------------------------------------------- x:
+       , >> formata em milhares ---------------------------------------------------------- x:,
+       _ >> formata em milhares, mas com _ ----------------------------------------------- x:_ == 1_000
+       . >> formata as quantidade de casas decimais -------------------------------------- x:.2 == 0.00
+       f >> formato o num em float ------------------------------------------------------- x:.2f
+       % >> formata em porcentagem ------------------------------------------------------- x:.2% == 0.00%
+

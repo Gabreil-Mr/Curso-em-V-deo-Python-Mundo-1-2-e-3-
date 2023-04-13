@@ -1,0 +1,34 @@
+ ============================ Anotações ============================
+
+ tempo = inft(input('Quantos anos seu carro tem? '))
+
+--- > Condições simples:
+
+ if tempo >=3 :
+      print('carro velho')
+ else:
+       print('carro novo')
+
+---> Condições resulmidas:
+
+ print('Carro velhor' if tempo >=3 else 'Carro novo')
+
+---> Operdadores lógicos And e Or
+
+  Ambos servem para simplificar várias condições que levam ao mesmo resultado
+
+ And >> complementa e adiciona mais caracteristicas à uma condição >>> if ano % 5 == 0 and ano % 4 == 0
+                                                                  # isso significa que ano tem que ser
+                                                                        divisivel por 5 e por 4
+ Or >> simplica uma outra condição com o mesmo resultado dentro de outra >>> if ano % 5 == 0 or ano % 4 == 0
+                                                                  # isso significa que ano tem que ser
+                                                                        divisivel por 5 ou por 4
+ In >> procura alguma variável dentro de uma string >>> if ano in '2002 2003 2004 2005'
+
+    lista = [1,2,3]
+
+   Sorted() >> Ordena os valores de uma lista de forma crescente >>>  listaO = sorted(lista) - listaO[2] >>> 3
+   min()    >> Seleciona o menor valor de uma lista  >>> min(lista) - 1
+   max()    >> Seleciona o maior valor de uma lista  >>> max(lista) - 3
+   sum()    >> Soma os valores de uma lista          >>> sum(lista) - 6
+   mean()   >> Tira a média dos valores de uma lista >>> mean(lista) - 2

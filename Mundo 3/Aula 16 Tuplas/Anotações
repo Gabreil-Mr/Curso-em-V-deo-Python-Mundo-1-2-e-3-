@@ -1,0 +1,18 @@
+ ======================================== Anotações =============================================
+
+  --> tuplas são variáveis compostas, parecidas com listas
+  --> tuplas são imutáveis pelo programa
+  --> tuplas recenbem uma indetação similar a str
+
+  lanche = ('hambuguer','suco','refri','pudim')
+
+  * variável[começo:final:ritmo]
+
+  lanche[1] >> mostra o 2º componente da tupla ------------------------ print(lanche[1]) >>> suco
+  lanche[1:] >> mostra todos a partir de 1 em diante ------------------ ('suco','refri','pudim')
+  lanche[1::2] >> // pulando de 2 em 2 -------------------------------- ('suco','pudim')
+  lanche[-4] >> conta pelo lado contrário a lista --------------------- hambuguer
+
+  len(lanche) >> conta o comprimento da tupla ------------------------- 4
+  del() >> apaga a variável toda -------------------------------------- del(lanche)
+  index() >> faz a função do find() ----------------------------------- lanche.index('hamburguer')

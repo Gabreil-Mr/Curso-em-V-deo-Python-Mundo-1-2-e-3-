@@ -1,0 +1,10 @@
+
+
+---> Uma IA que reconhece uma P.A. e responde o próximo valor
+
+---> Um programa que oferece a o maior produto da soma de um número
+         exemplo: 6+5 = 11 e 6*5 = 30 > 7+4 = 11 e 7*4 = 28
+       Premissa pra ser testada sobre:
+         a menor diferença entre os produtos gera o maior número
+
+---. um projeto que automatize o download, conversão, e diminuição do vídeo selecionado

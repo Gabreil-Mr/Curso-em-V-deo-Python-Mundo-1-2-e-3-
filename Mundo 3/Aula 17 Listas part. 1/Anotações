@@ -1,0 +1,34 @@
+ ======================================== Anotações =============================================
+
+    --> O princípio da lista é mutabilidade e da tupla a imutabilidade
+    --> As listas uma vez ligadas, pra sempre ligadas
+
+ lanche = ['hambuguer','suco','refri','pudim']
+ valores = [90,3,4,1,9,7,6]
+
+ lanche[][] >> seleciona um fator de uma lista dentro de outra ------------------ lanche[0][1] >> 'suco'
+ .append() >> adiciona fatores a uma lista -------------------------------------- lanche.append('sorvete')
+ .insert() >> adiciona e/ou muda a posição dos fatores -------------------------- lanche.insert(posição,'oq quer adicionar')
+ list(range()) >> cria automaticamente uma lista no range ----------------------- list(range(0,5))
+ .sort() >> ordenar valores crescentemente -------------------------------------- valores.sort()
+ .sort(reverse=True) >> descresce ----------------------------------------------- valores.sort(reverse=True)
+ var[:] >> cria uma cópia de uma lista ------------------------------------------ a = b[:]
+
+ del >> deleta os fatores em questão --------------------------------------------- del lanche[3]
+ .pop() >> normalmente eliminar o ultimo elemento -------------------------------- lanche.pop(3)
+ .remove() >> deletar o valor ---------------------------------------------------- lanche.remove('refri')
+
+ min() >> Seleciona o menor valor de uma lista ----------------------------------- min(lista) - 1
+ max() >> Seleciona o maior valor de uma lista ----------------------------------- max(lista) - 3
+ sum() >> Soma os valores de uma lista ------------------------------------------- sum(lista) - 6
+ mean() >> Tira a média dos valores de uma lista --------------------------------- mean(lista) - 2
+
+  len() >> conta o comprimento da tupla ------------------------------- 4
+  del() >> apaga a variável toda -------------------------------------- del(lanche)
+  index() >> faz a função do find() ----------------------------------- lanche.index('hamburguer')
+
+ pessoas = [['pedro','21'],['lina','47'],['vitoria','36']]
+ pessoas[][] >> seleciona um fator de uma lista dentro de outra ----------------- pessoas[0][1]
+                                                                                            >> 21
+
+

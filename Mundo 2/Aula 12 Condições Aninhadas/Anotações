@@ -1,0 +1,38 @@
+ ============================ Anotações ============================
+
+  ---> Condição Simples: if
+  ---> Condição Composta: if + else
+  ---> Condição Aninhada: if + elif + else (ou sem else)
+
+  As condições são usadas para solucionar um problema com diferentes resultados.
+  Usando o if temos somente 1. Usando o if + else temos 2.
+  E, por fim, usando o if + elif + else podemos ter infinitos.
+
+
+    elif >> adiciona mais um resultado >>> if a == 2:
+                                            print(a)
+                                         elif a == 3
+                                            print(b)
+                                         else:
+                                             print(c)
+    end='' >> pode juntar duas linhas em uma só >>> print('amanhã' end='') - amanhãhoje
+                                                  print('hoje')
+    var:.2f >> formata o valor para uma medida parecida com reais >>> print(f'R${var:.2f}
+    bin() >> transforma um número decimal em binário >>> bin(5) ou bin(var)
+    oct() >> transforma um número decimal em octadecimal >>> oct(5) ou bin(var)
+    hex() >> transforma um número decimal em hexadecimal >>> hex(5) ou hex(var)
+        Trata a string para ser representado de forma correta
+          :b - binário
+          :o - octal
+          :x - hexadecimal com letras minúsculas
+          :X - hexadecimal com letras maiúsculas
+
+Exemplo:
+  nome = str(input('Qual é o seu nome? )
+  if nome == 'Gustavo':
+      print('Que nome bonito!')
+  elif nome == 'Maria' or nome == 'Ana' or nome == 'Sabrina'
+      print('Belo nome feminino')
+  elif nome in ''
+
+

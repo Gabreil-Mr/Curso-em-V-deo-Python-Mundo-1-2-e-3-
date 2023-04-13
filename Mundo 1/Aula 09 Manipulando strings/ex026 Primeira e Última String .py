@@ -1,0 +1,6 @@
+print('='*20,'DESAFIO 26','='*20)
+frase = str(input('Solta o verbo: ').strip()).lower()
+frase = (((frase.replace('á', 'a')).replace('ã', 'a')).replace('â', 'a')).replace('à', 'a')
+print(f"Sua frase tem {frase.count('a')} letras -A- ")
+print(f"O -A- aparece pela primeira vez na posição {frase.find('a')+1}")
+print(f"O -A- aparece pela última vez na posição {frase.rfind('a')+1}")

@@ -1,0 +1,13 @@
+ ============================ Anotações ============================
+
+ ---> O porquê de começar na Aula 05:
+ O curso só começa mesmo a ensinar python a partir disso
+
+ ---> print() >> Escreve algo na tela >>> print('Olá mundo!')
+
+ ---> var >>  Cria uma variável >>> var = 5 + 2
+
+ ---> '' >> Deixa claro que é uma string separada >>> print('var') != print(var)
+
+ ---> { + } é diferente de { , } >>> 4 + 5 -> 9  /// 4 , 5 -> 45
+

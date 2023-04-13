@@ -1,0 +1,24 @@
+ ======================================== Anotações =============================================
+
+  -> Definição: As estruturas de dados cada uma tem sua propriedade essencial:
+   - Tupla: imutabilidade;
+   - Lista: mutabilidade;
+   - Dicionário: categorização, semelhante as listas.
+
+  dados = {'nome':'Pedro','idade':25}
+
+  dados[] >> mostra o item desejado -------------------------------------------------- dados['nome']
+  dados[] = '' >> cria um elemento e o nomeia tbm ------------------------------------ dados['sexo'] = M
+  del >> deleta o elemento específico ------------------------------------------------ del dados['idade']
+
+  .values() >> seleciona somente os valores ------------------------------------------ dados.values()
+  .keys() >> seleciona somente as chaves --------------------------------------------- dados.keys()
+  .items() >> chaves + valores ------------------------------------------------------- dados.items()
+  .copy() >> faz o fatiamento dos dados para que não fiquem repetidos ---------------- x.append(y.copy())
+  .clear() >> limpa os valores do dic ------------------------------------------------ dic.clear()
+   len() >> Verifica a quantidade de elementos no dic -------------------------------- len(dic)
+   key=lambda item:item[] >> seleciona k ou v para manipulação ----------------------- key=lambda item:item[1]
+   for k,v in dados.items: >> vai selecionar as keys e os values ---------------------- 'nome','pedro'
+
+  locadora = [{},{},{}] >> várias listas dentro de um dicionário
+  locadora[][] >> Dicionário dentro de outro dicionário ----------------------------- locadora['filme 1']['título']

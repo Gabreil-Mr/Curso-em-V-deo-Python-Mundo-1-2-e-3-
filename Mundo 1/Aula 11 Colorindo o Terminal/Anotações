@@ -1,0 +1,16 @@
+ ============================ Anotações ============================
+
+       Padrão ANSI
+
+      Estrura básica:            \033[m
+                                 \033[ style ; text ; back m
+
+* Style ---> 0 - nada        * Text ---> 30 - branco         * Back ---> 40 - branco
+             1 - negrito                 31 - vermelho                   41 - vermelho
+             4 - sublinhado              32 - verde                      42 - verde
+             7 - negativo                33 - amarelo                    43 - amarelo
+                                         34 - azul                       44 - azul
+                                         35 - roxo                       45 - roxo
+                                         36 - azul ciano                 46 - azul ciano
+                                         37 - cinza                      47 - cinza
+

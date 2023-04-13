@@ -1,0 +1,12 @@
+ ==================================== Anotações ====================================
+
+---> while
+
+    while é uma estrutura de repetição parecida com o for, e pode ser usada da mesma forma.
+    A principal diferença é sobre o range, quando você tem ele definido o for pode ser a melhor opção
+    mas quando não se tem uma definição exata, é onde o while se destaca.
+
+---> Estrutura básica:
+    resposta = ''
+    while resposta = sim:
+        resposta = input('quer continuar?')

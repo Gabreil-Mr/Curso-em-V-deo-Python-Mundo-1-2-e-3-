@@ -1,0 +1,23 @@
+ ==================================== Anotações ====================================
+
+---> Estrutura básica
+
+    for c in range(0,x)
+        print('olá')
+  for c in range(0,x) >> irá mostrar todos o números int até x --------- for c in range(0,6)
+  for c in range(0,x,-1) >> irá mostrar de trás pra frente ------------- for c in range(6,0,-1)
+  for c in range(0,x,2) >> vai pular de 2 em 2 ------------------------- for c in range(0,6,2)
+
+---> Sem range
+
+# a variável c recebe gradualmente a variável/lista/dicionário solicitado
+
+  lanche = ('hambuguer','suco','pizza','pudim')
+
+  for comida in lanche:
+     print(f'Eu vou comer {comida}')
+  print('comi pra caramba')
+
+
+
+  # ideia: programar uma IA que seja capaz de solucionar P.A.s
