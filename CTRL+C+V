@@ -26,6 +26,16 @@ cont = str(input('Gostaria de continuar? \033[1;34m[s/n]\033[m ')).lower()
     elif cont == 'n':
         print(f'\033[35m\U0001F625 \033[m Então você não gosta de mim \033[35m\U0001F625 \033[m')
         break
+#2.0
+while True:
+    while True:
+        cont = str(input("Continuar? [S/N] ")).lower()
+        if cont in "sn":
+            break
+        print("\033[1;31mXXX\033[m Por favor digite S ou N!")
+    if cont in "s":
+        break
+print("\033[1;31m-\033[m"*30)
 
 # Reiniciador de programas
 
